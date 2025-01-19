@@ -36,16 +36,78 @@
         }
 
         .soon {
-            margin: auto;
-            align-self: center;
             text-align: center;
             font-size: 50px;
             text-transform: uppercase;
             color: lightgrey;
             font-family: "VT323", serif;
             font-weight: 800;
-            font-style: normal;
+            margin: 0;
+            padding: 0;
             letter-spacing: 4px;
+        }
+
+        .soon>.l1 {
+            animation: flicker 6s ease-in-out 7.75s infinite alternate both;
+        }
+
+        .soon>.l2 {
+            animation: flicker 6s ease-in-out 7.41s infinite alternate both;
+        }
+
+        .soon>.l3 {
+            animation: flicker 6s ease-in-out 8.94s infinite alternate both;
+        }
+
+        .soon>.l4 {
+            animation: flicker 6s ease-in-out 4.47s infinite alternate both;
+        }
+
+        .soon>.l5 {
+            animation: flicker 6s ease-in-out 6.6s infinite alternate both;
+        }
+
+        .soon>.l6 {
+            animation: flicker 6s ease-in-out 3.81s infinite alternate both;
+        }
+
+        .soon>.l7 {
+            animation: flicker 6s ease-in-out 6.39s infinite alternate both;
+        }
+
+        .soon>.l8 {
+            animation: flicker 6s ease-in-out 7.75s infinite alternate both;
+        }
+
+        .soon>.l9 {
+            animation: flicker 6s ease-in-out 8.21s infinite alternate both;
+        }
+
+        .soon>.l10 {
+            animation: flicker 6s ease-in-out 4.42s infinite alternate both;
+        }
+
+        .soon>.l11 {
+            animation: flicker 3s ease-in-out 1.75s infinite alternate both;
+        }
+
+        .soon>.l12 {
+            animation: flicker 3s ease-in-out 2.00s infinite alternate both;
+        }
+
+        .soon>.l13 {
+            animation: flicker 3s ease-in-out 1.5s infinite alternate both;
+        }
+
+        @keyframes flicker {
+
+            0%, 2%, 35%, 37%, 39%, 41%, 100% {
+                opacity: 1;
+            }
+
+            1%, 3%, 34%, 36%, 38%, 40% {
+                opacity: 0;
+            }
         }
     </style>
 
@@ -63,7 +125,9 @@
         <div class="text" style="padding-top: 10px;">Uroboros LARP</div>
     </div>
     <div class="soon">
-        Coming Soon...
+        <span class="l1">C</span><span class="l2">o</span><span class="l3">m</span><span class="l4">i</span><span></span><span class="l5">n</span><span class="l6">g</span>
+
+        <span class="l7">S</span><span class="l8">o</span><span class="l9">o</span><span class="l10">n</span><span class="l11">.</span><span class="l12">.</span><span class="l13">.</span>
     </div>
 </body>
 
